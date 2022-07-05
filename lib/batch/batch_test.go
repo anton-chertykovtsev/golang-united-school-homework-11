@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func Test_getButch(t *testing.T) {
+func TestGetButch(t *testing.T) {
 	type args struct {
 		n    int64
 		pool int64
